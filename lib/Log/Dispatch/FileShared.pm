@@ -1,5 +1,5 @@
 package Log::Dispatch::FileShared;
-# $Id: FileShared.pm,v 1.1 2007/02/03 12:26:16 cmanley Exp $
+# $Id: FileShared.pm,v 1.2 2007/02/03 18:24:11 cmanley Exp $
 use strict;
 use Carp;
 use Fcntl qw(:DEFAULT :flock);
@@ -7,7 +7,7 @@ use Params::Validate qw(validate_with SCALAR BOOLEAN); Params::Validate::validat
 use Scalar::Util ();
 use Time::HiRes ();
 use base qw( Log::Dispatch::Output );
-our $VERSION = sprintf '%d.%02d', q|$Revision: 1.1 $| =~ m/ (\d+) \. (\d+) /xg;
+our $VERSION = sprintf '%d.%02d', q|$Revision: 1.2 $| =~ m/ (\d+) \. (\d+) /xg;
 
 
 
@@ -265,7 +265,7 @@ __END__
 
 =head1 NAME
 
-Log::Dispatch::FileShared - output class for logging to shared files.
+Log::Dispatch::FileShared - Log::Dispatch output class for logging to shared files.
 
 =head1 SYNOPSIS
 

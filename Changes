@@ -2,7 +2,10 @@
 Revision history for Perl extension Log::Dispatch::FileShared.
 ==============================================================
 
-$Log: Changes,v $
-Revision 1.1  2007/02/03 12:26:16  cmanley
+1.01
 Initial version
 
+1.02
+Bumped version up in order to repackage module with the version
+number as part of the directory name as required for creating a
+FreeBSD port.
